@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  vertical-align: bottom;
+}
+
+.barContainer {
+  align-self:flex-end;
+  text-align: center
+}
+
+
+.bar, .filtered {
+  height: 100px;
+  width: 20px;
+  /* background-color: lightblue; */
+  border: 1px solid black;
+  display:flex;
+  padding: 20px;
+  margin: 10px;
+}
+
+.bar {
+  background-color: lightblue;
+}
+
+.filtered {
+  background-color:red;
+}
+
+.average {
+  background-color: blue;
+}
+
+.bar-filter {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.bar-filter input {
+  margin-left: 1em;
+}
